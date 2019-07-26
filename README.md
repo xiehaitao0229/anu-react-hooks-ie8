@@ -1,4 +1,4 @@
-# 谢海涛  用anu.js搭建react兼容ie8的脚手架
+# 用anu.js搭建react兼容ie8的脚手架
 # 利用全新的react-hooks进行搭建
 
 > 测试环境分支 staging, 正式环境分支 release
