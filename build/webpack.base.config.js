@@ -46,6 +46,17 @@ module.exports = {
         exclude: /node_modules/,  // 排除掉node_modules，优化打包速度
       },
       {
+        test:/\.tsx?$/,
+        exclude:/node_modules/,
+        type:'javascript/auto',
+        use:[{
+          loader:'ts-loader',
+          options:{
+            transpileOnly:true
+          }
+        }]
+      },
+      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,

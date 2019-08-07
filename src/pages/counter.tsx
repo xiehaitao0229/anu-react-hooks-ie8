@@ -1,8 +1,10 @@
 import React from 'react';
 
+let num:Number = 12;
+
 const Counter = ()=>{
   return (
-    <div>123</div>
+    <div>{num}</div>
   )
 }
 

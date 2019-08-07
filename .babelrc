@@ -9,7 +9,7 @@
       "plugins": [
         "transform-decorators-legacy",
         "transform-runtime",
-   /*      "transform-export-extensions", */
+        "transform-export-extensions",
         "syntax-dynamic-import",
         "dynamic-import-webpack"
       ]
